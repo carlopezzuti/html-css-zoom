@@ -1,8 +1,16 @@
+/*--------------
+    RESET
+ -------------*/
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+/*--------------
+    GENERAL
+ -------------*/
 
 body {
     background-color: black;
@@ -12,6 +20,10 @@ body {
 .flex-container {
     display: flex;
 }
+
+/*--------------
+    HEADER
+ -------------*/
 
 header {
     justify-content: flex-end;
@@ -34,6 +46,10 @@ header button {
     border-radius: 5px;
     text-transform: capitalize;
 }
+
+/*--------------
+    MAIN
+ -------------*/
 
 main {
     padding-inline: 5%;
@@ -74,6 +90,9 @@ main {
     text-transform: capitalize;
 }
 
+/*--------------
+    FOOTER
+ -------------*/
 
 footer {
     background-color: #222;
